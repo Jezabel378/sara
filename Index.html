@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mi Pagina Web</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
+	
+</head>
+
+	<body> 
+		<header class="cabecera"> 
+	<h1>Gesabel <img src="Imagenes/jk.png" width="61" height="79" alt=""/></h1>
+		</header>
+			
+		<header class="lista">
+			<nav id="navegación">
+				<ul class="lista">
+					<li><a href="Inicio.html" >Inicio</a></li>
+					<li><a href="fotografia.html" >Fotografía</a></li>
+					<li><a href="Ilustracion.html" >Ilustración</a></li>
+					<li><a href="tipografia.html" >Tipografía</a></li>	
+				</ul><!--Cierre de lista--> 
+			
+			</nav><!--CIERRE-->
+		</header>
+		
+		<br> 
+		
+    <div class="galeria2_card"> 
+        <div><img src="Imagenes/yo.jpg" width="300" height="300" alt=""/></div> <br>
+		<h3>Gesabel </h3>
+		<p>Hola <br>Soy  estudiante de Diseño Grafico me encuentro cursando el sexto semestre, en esta pagina se  mostraran  algunos de mis trabajos que he realizado  <br> Para ver mas fotos puedes ir a mi instragram estoy como Jezabel Kim </p> <br>
+	    </div>
+		
+	   
+		<br> 
+		<form action="mailton:florstar901@gmail.com" method="post" enctype="text/plain" id="formulario" autocomplete="on" title="formulario">
+	  <ul>
+	    <li>
+		  <label for="nombre">Nombre o nombres </label><br>
+			  <input name="nombre" type="text" id="nombre" title="nombre" size="50">	
+		  </li>
+			
+	    <li>
+			<label for="apellido_pa">Apellido Paterno</label><br>
+			  <input name="apellido_pa" type="text" id="apellido_pa" size="50">
+		  </li>
+			
+	    <li>
+		  <label for="apellido_ma">Apellido materno</label><br>
+			  <input name="apellido_ma" type="text" id="apellido_ma" title="apellido_ma" size="50">
+		  </li>
+			
+	    <li>
+		  <label for="correo_e">Correo Electrónico</label><br>
+			  <input name="correo_e" type="email" id="correo_e" title="correo_electronico" size="35" maxlength="50">
+			</li>
+			
+		  <li>
+		  <label for="asunto">Asunto</label>
+			  <select name="asunto" size="1" id="asunto">
+			    <option value="cot">Cotización</option>
+			    <option value="ase">Asesoría</option>
+			    <option value="men">Mensaje</option>
+			    <option value="acl">Aclaración</option>
+			  </select>
+		  </li>
+			
+		<li>
+		  <label for="mensaje"></label>
+				<textarea name="mensaje" cols="50" rows="3" masxlength="300" id="mensaje" title="Mensaje"></textarea>
+		  </li>
+		  <input name="Enviar" type="submit" id="Enviar" form="formulario" formaction="mailto:florestr901@gmail.com" formenctype="text/pain" formmethod="POST" formtarget="_blank" value="Enviar">
+		</ul>
+	
+	</form>
+		
+		<br>
+		
+		
+		<div class="pie"> 
+			<p>UNIVERSIDA NACIONAL AUTÒNOMA DE MÈXICO<br>CRUZ GARCÌA SARA GESABEL</p>
+		</div>
+	</body>
+	
+	
+
+</html>

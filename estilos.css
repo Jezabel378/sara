@@ -1,0 +1,240 @@
+@charset "utf-8";
+h1 { 
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";/*Para fuente de google fonts*/ 
+text-align: left;
+padding-left: 25%;
+}
+
+* {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin: 1px;
+	text-decoration: none;
+	text-style: none;
+	list-style: none;
+}
+
+.cabecera {
+	width: 100%;
+	text-align: center;
+	background-color:#001B48;
+	height: 50%;
+	color: white;
+	font-size: 3em; 
+	font-weight: 200;
+}
+
+.lista
+nav {
+	background-color: #02457A;
+	height: 100px;
+	width: 100%;
+}
+
+nav lu{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0px 5px;
+	z-index: 1;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 6px;
+	text-transform: uppercase;
+	z-index: 2;
+}
+.cont_1
+img {
+	max-width: 80%;
+	width: 400px;
+	height: 305px;
+	border-radius: 20px;
+	justify-content: flex-end;
+	align-items:flex-end;
+	shadow: 5px 4px 5px #bcb4b4;
+	transition: all 0.25s;
+} 
+
+a:hover {
+	background-color:#D6E8EE;
+	transition: .5s;
+}
+
+body{
+	background-color: #001B48; 
+} 
+galeria2_card img {
+	width: 400px;
+	height: 304px;
+	border-radius: 20px;
+	
+} 
+
+.galeria2_card p {
+	display: flex;
+	justify-content:center;
+	width: 400px;
+	color: white;
+	
+}
+
+.galeria2_card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #001B48;
+	text-align: center;
+	padding: 10px;
+	transition: all 0.25s;
+	
+}
+
+
+body{
+	background-color:#001B48;
+}
+div form{
+	background-position: center;
+	background-repeat:no-repeat;
+	margin-top: 10%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+div li {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: white;
+	font-size: 24px;
+	list-style: none;
+	padding-left: 10%
+}
+div ul li input{
+	text-transform: uppercase;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 18px;
+	margin-bottom: 2%;
+}
+#Enviar{
+	font-style: 24px;
+	width: 250px;
+	text-align: center;
+	float: right;
+	margin-right: 12%;
+}
+#Enviar:hover{
+	background-color: #D6E8EE;
+	color: blue;
+}
+form:hover{
+opacity: 0.8;	
+}
+
+#asunto{
+	font-size: 18px;
+	width: 250px;
+	text-align: center;
+}
+#mensaje{
+	font-size: 18px;
+	width: 250px;
+	text-align: center;
+}
+select opinion{
+	font-size: 18px;
+	width: 250px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #018ABE;
+	margin: 5%;
+}
+
+body{
+	background-color:#001B48;
+}
+div form{
+	background-position: center;
+	background-repeat:no-repeat;
+	margin-top: 10%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+div li {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: white;
+	font-size: 24px;
+	list-style: none;
+	padding-left: 10%
+}
+div ul li input{
+	text-transform: uppercase;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 18px;
+	margin-bottom: 2%;
+}
+#Enviar{
+	font-style: 24px;
+	width: 250px;
+	text-align: center;
+	float: right;
+	margin-right: 12%;
+}
+#Enviar:hover{
+	background-color: #D6E8EE;
+	color: blue;
+}
+form:hover{
+opacity: 0.8;	
+}
+
+#asunto{
+	font-size: 18px;
+	width: 250px;
+	text-align: center;
+}
+#mensaje{
+	font-size: 18px;
+	width: 250px;
+	text-align: center;
+}
+select opinion{
+	font-size: 18px;
+	width: 250px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #018ABE;
+	margin: 5%;
+}
+
+
+.pie {
+	width: 100%;
+	height: 85%;
+	background-color:#02457A;
+	color: white;
+	clear: both;
+	line-height: normal;
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 1em;
+}
